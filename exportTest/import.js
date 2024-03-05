@@ -5,6 +5,7 @@ console.log(q);
 console.log(otbor(arr));
 console.log("Безымянный экспорт : ")
 
-import arrOne from './exportdefault.js';
+import cub from './exportdefault.js';
 
-console.log(arrOne);
+console.log(cub);
+console.log(cub(5))
