@@ -1,3 +1,4 @@
+const { Console } = require("console");
 
 let arr = [
     {name : "ivan", age : "21", heiht: 83},
@@ -5,16 +6,12 @@ let arr = [
     {name : "Andrey", age : "18", heiht: 75},
     {name : "Tyubic", age : "25", heiht: 50},
 ];
-
 console.log("Исходный массив обЪектов :");
 console.log(arr);
-
-//let str = arr.join(",");
-//console.log(str);
-//console.log(String (arr));    // Воспользовались методом "String" и преобразовали массив данных в строку
-/* Не получилось преобразовать массив объектов в строку 
-в интернете к сожалению не нашел решение проблемы, только если писать какую-либо функцию
-*/
+console.log("Осортируем массив : "); 
+console.log(arr.sort((a,b) => a.heiht-b.heiht ));
+console.log("Преобразовали массив в строку : ");
+console.log(String(JSON.stringify(arr)));    // Воспользовались методом "String" и преобразовали массив данных в строку
 let resultOne = arr.find(item => item.age==="18"); 
 console.log("Выполнили поиск нашли Андрюшу : "); 
 console.log(resultOne);    //Продемонстрировали поиск в массиве объектов с определенным условием
