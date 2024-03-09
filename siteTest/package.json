@@ -1,0 +1,22 @@
+{
+  "name": "sitetest",
+  "version": "1.0.0",
+  "description": "File storage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IVAN-JC/nodejs.git"
+  },
+  "keywords": [
+    "file"
+  ],
+  "author": "Ivan Okhrimenko <ohrimenkoivan57@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IVAN-JC/nodejs/issues"
+  },
+  "homepage": "https://github.com/IVAN-JC/nodejs#readme"
+}
