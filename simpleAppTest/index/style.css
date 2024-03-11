@@ -1,0 +1,13 @@
+body {
+    font-size: 1em;
+    font-family: Arial;
+    background: #911586;
+  }
+   
+  #hellomessage {
+    font-weight: bold;
+  }
+
+  .input {
+    display: none;
+  }
